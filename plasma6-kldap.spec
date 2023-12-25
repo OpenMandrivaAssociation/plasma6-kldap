@@ -39,7 +39,7 @@ BuildRequires: cmake(Qt6Keychain)
 # For QCH format docs
 BuildRequires: doxygen
 BuildRequires: qt6-qttools-assistant
-Requires: akonadi-contacts
+Requires: plasma6-akonadi-contacts
 
 %description
 KDE library for accessing LDAP directories.
