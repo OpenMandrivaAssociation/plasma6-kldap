@@ -22,7 +22,7 @@ Source0:	https://invent.kde.org/pim/kldap/-/archive/%{gitbranch}/kldap-%{gitbran
 Source0: http://download.kde.org/%{ftpdir}/release-service/%{version}/src/kldap-%{version}.tar.xz
 %endif
 Summary: KDE library for accessing LDAP directories
-URL: http://kde.org/
+URL: https://kde.org/
 License: GPL
 Group: System/Libraries
 BuildRequires: cmake
