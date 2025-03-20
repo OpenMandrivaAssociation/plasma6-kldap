@@ -15,7 +15,7 @@ Version:	24.12.3
 %else
 %define ftpdir stable
 %endif
-Release:	%{?git:0.%{git}.}1
+Release:	%{?git:0.%{git}.}2
 %if 0%{?git:1}
 Source0:	https://invent.kde.org/pim/kldap/-/archive/%{gitbranch}/kldap-%{gitbranchd}.tar.bz2#/kldap-%{git}.tar.bz2
 %else
